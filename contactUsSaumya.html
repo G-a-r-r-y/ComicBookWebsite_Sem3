@@ -1,0 +1,208 @@
+<!-- Saumya -  -->
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>    
+    <title>Contact us Page</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+ 
+.reachUs-button {
+    padding: 1rem;
+    background-color: #74c69d;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.reachUs-button:hover{
+    background-color: #0dac30;
+}
+ 
+
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+ 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #74c69d;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #0dac30;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #74c69d;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+.hamburger {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+</style>
+</head>
+ 
+<body>
+    <!-- Header section -->
+    <header>
+
+        <span id="icon"><a href="#"><img src="images/headerImages/Icon_Dragon.png" alt="Icon"></a></span>
+
+        <form action="#" method="get" name="search">
+            <div id="searchBox_Wrapper">
+                <input id="searchBox_input" type="text" placeholder="Search">
+                <div id="searchBox_btn" type="submit">
+                    <div id="searchBox_btn_imgContainer"><img src="images/headerImages/magnifying-glass.png" alt=""></div>
+                </div>
+            </div>
+        </form>
+        
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="comics.html">Comics</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contactUsSaumya.html">Contact Us</a></li>
+            <li id="logIn"><a href="loginSaumya.html">Login</a></li>
+            <li id="signUp"><a href="signUpSaumya.html">SignUp</a></li>
+        </ul>
+    </nav>
+    
+    <section class="banner">
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+            alt="Welcome to our Contact Us page">
+        <h1>Get in Touch With Us</h1>
+        <p>We're here to answer any questions you may have.</p>
+    </section>
+ 
+   
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+               <center><button type="submit" class="submit-button">Submit</button></center>
+            </form>
+        </div>
+    </section>
+ 
+  
+    <footer>
+        <div class="socialHandles_container">
+            <div><img src="images/footerImages/instagram.png" alt="instagram"></div>
+            <div><img src="images/footerImages/twitter.png" alt="twitter"></div>
+            <div><img src="images/footerImages/linkedin.png" alt="linkedin"></div>
+        </div>
+        <hr>
+        <div class="footer_titleContainer">
+            <h1>DragoScans</h1>
+            <div class="footer_titleContainer_copyrightContainer">
+                <p>Copyright © 2023 DragoScans, Inc</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer_LinksContainer">
+            <div class="footer_LinksContainer_link">
+                <a href="#">Legal Stuff</a>
+            </div>
+            <div class="footer_LinksContainer_link">
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer_LinksContainer_link">
+                <a href="#">Security</a>
+            </div>
+            <div class="footer_LinksContainer_link">
+                <a href="#">Website Accessibility</a>
+            </div>
+            <div class="footer_LinksContainer_link">
+                <a href="#">Manage Cookies</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+ 
+</html>
